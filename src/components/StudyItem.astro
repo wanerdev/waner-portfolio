@@ -1,0 +1,16 @@
+---
+import { Image } from "astro:assets";
+import type {StudyItem} from "../types/config";
+
+type Props = StudyItem;
+
+const { title, company, date } = Astro.props;
+---
+
+
+  <div class="flex items-center gap-4">
+    <div>
+      <h3 class="font-medium">{title}</h3>
+    </div>
+  </div>
+  <p class="text-sm opacity-60">{date}</p>

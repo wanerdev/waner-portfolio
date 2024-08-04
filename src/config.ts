@@ -9,9 +9,9 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
+  name: "Waner Kevin",
   logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  email: "wanerkevin1@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -36,13 +36,13 @@ export const navBarLinks: NavBarLink[] = [
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/wanerdev",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:wanerkevin@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -50,14 +50,14 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Waner Kevin",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Full-stack developer who loves code",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Software Developer",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+      "I am Waner Kevin, a young full-time developer who enjoys analyzing everyday situations and translating them into code!",
   socialLinks: socialLinks,
   links: [
     {
@@ -74,24 +74,26 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "About | Waner Kevin",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Fullstack developer",
     image: identity.logo,
   },
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+I'm Waner Kevin,
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+Passionate Full Stack developer with extensive experience in designing, developing, and maintaining web applications. 
+Proficient in front-end and back-end technologies, with skills in HTML, CSS, JavaScript, PHP, Java, and SQL and NoSQL databases. 
+I have worked on diverse projects, from startups to large companies, which has provided me with a solid understanding of current technological challenges. 
+Always seeking innovative solutions with a focus on efficiency and scalability. Connect with me to discuss potential collaboration opportunities!`, // Markdown is supported
     image_l: {
-      url: "/demo-1.jpg",
+      url: "/codigo.jpg",
       alt: "Left Picture",
     },
     image_r: {
-      url: "/demo-1.jpg",
+      url: "/codigo-2.jpeg",
       alt: "Right Picture",
     },
   },
@@ -101,20 +103,61 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
       {
         title: "Software Developer",
         company: {
-          name: "Freelance",
+          name: "Eviano Digital SL",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "",
         },
-        date: "2021 - Present",
+        date: "Sept 2022 - Present",
       },
       {
         title: "Software Developer",
         company: {
-          name: "Freelance",
+          name: "Housfy",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "",
         },
-        date: "2019 - 2021",
+        date: "Mar 2022  - Aug 2022",
+      },
+      {
+        title: "Software Developer",
+        company: {
+          name: "Cyberclick",
+          image: "/logo.webp",
+          url: "",
+        },
+        date: "Jun 2021  - Mar 2022",
+      },
+    ],
+  },
+  study: {
+    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    items: [
+      {
+        title: "Software Developer",
+        center: {
+          name: "Eviano Digital SL",
+          url: "",
+        },
+        date: "Sept 2022 - Present",
+        description: ""
+      },
+      {
+        title: "Software Developer",
+        center: {
+          name: "Housfy",
+          url: "",
+        },
+        date: "Mar 2022  - Aug 2022",
+        description: ""
+      },
+      {
+        title: "Software Developer",
+        center: {
+          name: "Cyberclick",
+          url: "",
+        },
+        date: "Jun 2021  - Mar 2022",
+        description: ""
       },
     ],
   },

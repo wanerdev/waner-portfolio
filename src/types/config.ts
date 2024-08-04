@@ -45,6 +45,16 @@ export type ResumeItem = {
   date: string;
 };
 
+export type StudyItem ={
+  title: string;
+  description: string;
+  center : {
+    name: string;
+    url: string;
+  }
+  date: string
+}
+
 export type AboutPageContent = {
   seo: SEOInfo;
   subtitle: string;
@@ -63,6 +73,10 @@ export type AboutPageContent = {
     description: string;
     items: ResumeItem[];
   };
+  study: {
+    description: string;
+    items: StudyItem[];
+  }
   connect: {
     description: string;
     links: SocialLink[];
