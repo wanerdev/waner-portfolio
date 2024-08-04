@@ -45,6 +45,11 @@ export const socialLinks: SocialLink[] = [
     url: "mailto:wanerkevin@gmail.com",
     icon: "mdi:email",
   },
+  {
+    title: "Linkdin",
+    url:"https://www.linkedin.com/in/wanerkevin/",
+    icon:"mdi:linkedin-box"
+  }
 ];
 
 // Home (/)
@@ -105,7 +110,7 @@ Always seeking innovative solutions with a focus on efficiency and scalability. 
         company: {
           name: "Eviano Digital SL",
           image: "/logo.webp",
-          url: "",
+          url: "https://www.linkedin.com/in/wanerkevin/",
         },
         date: "Sept 2022 - Present",
       },
@@ -114,7 +119,7 @@ Always seeking innovative solutions with a focus on efficiency and scalability. 
         company: {
           name: "Housfy",
           image: "/logo.webp",
-          url: "",
+          url: "https://www.linkedin.com/in/wanerkevin/",
         },
         date: "Mar 2022  - Aug 2022",
       },
@@ -123,40 +128,40 @@ Always seeking innovative solutions with a focus on efficiency and scalability. 
         company: {
           name: "Cyberclick",
           image: "/logo.webp",
-          url: "",
+          url: "https://www.linkedin.com/in/wanerkevin/",
         },
         date: "Jun 2021  - Mar 2022",
       },
     ],
   },
   study: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `My educational career has focused quite a bit on the line of computing and development.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "Informatics Engineering",
         center: {
-          name: "Eviano Digital SL",
+          name: "UOC",
           url: "",
         },
-        date: "Sept 2022 - Present",
+        date: "Jan 2023 - Present",
         description: ""
       },
       {
-        title: "Software Developer",
+        title: "Web applications development",
         center: {
-          name: "Housfy",
+          name: "Institut Provençana",
           url: "",
         },
-        date: "Mar 2022  - Aug 2022",
+        date: "Sep 2019  - Jun 2021",
         description: ""
       },
       {
-        title: "Software Developer",
+        title: "Database Design and Programing  with SQL ",
         center: {
-          name: "Cyberclick",
+          name: "Oracle",
           url: "",
         },
-        date: "Jun 2021  - Mar 2022",
+        date: "Sep 2021  - Jun 2021",
         description: ""
       },
     ],
